@@ -1,0 +1,9 @@
+.keyboard {
+  #width: 512px;
+}
+.modal-body {
+  padding: 1rem;
+}
+.controls {
+  #font-size: 200%;
+}

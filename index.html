@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>2XS - Pin Retinien experiment</title>
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/pinRetinien.css" rel="stylesheet" />
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/globals.js"></script>
+        <script type="text/javascript" src="js/pinRetinien.js"></script>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">Pin Retinien</a><button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">FR</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">EN</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <h1 class="masthead-heading text-uppercase mb-0">Welcome to the Gestald Online Keyboard experiment's website</h1>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0">Pin Retinien is a new generation online keyboard designed to resist modern screenloggers.</p>
+                <p class="masthead-subheading font-weight-light mb-0">For more information on the solution and the theory behind it, you can refer to our FAQ. If you just want to carry out the tests, just scroll down :)</p>
+                <p class="masthead-subheading font-weight-light mb-0">I you want to know more about our lab, <a class="text-white underline" href="https://www.cristal.univ-lille.fr/en/teams/2xs/"><u>it's that way</u></a>.</p>
+                <p class="masthead-subheading font-weight-light mb-0">Warning! If you are suffering from epylepsia, do not try this.</p>
+            </div>
+        </header>
+        <!-- Portfolio Section-->
+        <section id="personalInformation">
+          <div class="container">
+              <!-- About Section Heading-->
+              <h2 class="masthead page-section-heading text-center text-uppercase">Peronal information</h1>
+              <!-- Icon Divider-->
+              <!-- About Section Content-->
+              <div><p class="lead text-center">Before we begin, we will need to know a bit more about you. Don't worry, we will keep anything you enter to ourselves and will only publish anonymised data.</p>
+              </div>
+
+              <form>
+                <div class="form-group">
+                    <label for="firstName">First name*</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                    <div class="alert alert-danger d-none" id="firstNameAlert" role="alert">
+                      This field is mandatory.
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="surname">Surname*</label>
+                    <input type="text" class="form-control" id="surname" placeholder="Surname">
+                    <div class="alert alert-danger d-none" id="surnameAlert" role="alert">
+                      This field is mandatory.
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="age">Age*</label>
+                    <input type="text" class="form-control" id="age" placeholder="Age">
+                    <div class="alert alert-danger d-none" id="ageAlert" role="alert">
+                      This field is mandatory and must be a number.
+                    </div>
+                  </div>
+                  <div class="form-check form-check-inline">
+                      <p>Gender*</p>
+                  </div>
+                  <div class="form-check  form-check-inline">
+                    <input class="form-check-input" type="radio" name="gender" id="male" value="male">
+                    <label class="form-check-label" for="exampleRadios1">
+                      Male
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="gender" id="female" value="female">
+                    <label class="form-check-label" for="exampleRadios2">
+                      Female
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <div class="alert alert-danger d-none" id="genderAlert" role="alert">
+                      This field is mandatory and must be a number.
+                    </div>
+                  </div>
+                  <div class="form-check">
+                  </div>
+                  <div>
+                </div>
+                <div class="form-check form-check-inline">
+                    <p>Are you wearing visual correction ?*</p>
+                </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="wearingCorrection" value="wearingPrescriptionGlaces">
+                    <label class="form-check-label" for="wearingCorrection">Prescription glaces</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="wearingCorrection" value="wearingLences">
+                    <label class="form-check-label" for="wearingCorrection">Contact lenses</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="wearingCorrection" value="notWearingCorrection">
+                    <label class="form-check-label" for="wearingCorrection">No</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <div class="alert alert-danger d-none" id="wearingCorrectionAlert" role="alert">
+                      This field is mandatory and must be a number.
+                    </div>
+                  </div>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1" required="true" required>Email address*</label>
+                  <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                  <div class="alert alert-danger d-none" id="emailAlert" role="alert">
+                    A vaild email address must be entered.
+                  </div>
+                </div>
+                <div class="form-check form-check-inline">
+                  <p>We may need to contact you to ask you for more information, would you be OK with that?</p>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" name="doYouWantToBeContacted" value="ok">
+                  <label class="form-check-label" for="doYouWantToBeContacted"></label>
+                </div>
+              </form>
+          </div>
+          <div class="text-center">
+            <button id="start" type="button" class="btn btn-secondary btn-lg text-center"><span>Start !</button>
+          </div>
+      </section>
+      <section class="masthead text-center">
+        <h2 class="masthead-heading text-uppercase mb-0">Hello <span id="userName"></span></h2>
+        <p class="masthead-subheading font-weight-light mb-0">Before we start, let us give you a test run of the test bench.</p>
+        <div class="text-center">
+          <button type="button" class="btn btn-primary text-center" data-toggle="modal" data-target=".bd-example-modal-lg">Start the training</button>
+        </div>
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-body container">
+                  <div class="row">
+                    <div class="keyboard col-sm-auto text-center">
+                      <video width="512" height="512">
+                       <source src="https://grrrr.xyz/output3.mp4" type="video/mp4" />
+                       Your browser does not support the video tag.
+                      </video>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="controls">
+                      <div class="col-sm"></div>
+                      <div class="pinToEnter col-sm bg-primary font-weight-bolder">1234</div>
+                      <div class="pinEntered col-sm bg-primary font-weight-bolder">****</div>
+                      <div class="col-sm"></div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="controls">
+                      <div class="validatePin col-sm bg-primary font-weight-bolder">OK</div>
+                      <div class="cancelPin col-sm bg-primary font-weight-bolder">Cancel</div>
+                      <div class="pause col-sm bg-primary font-weight-bolder">Pause</div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
